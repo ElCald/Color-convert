@@ -1,4 +1,4 @@
-public class Decim{
+public class ImageMain{
 
     public static void main(String [] args){
 
