@@ -4,8 +4,10 @@ public class Fenetre extends JFrame{
 
     public Fenetre(){
 
-        setTitle("Fentre");
-        setSize(680, 680);
+        ImageConvert img = new ImageConvert();
+
+        setTitle("Image");
+        setSize(img.getLargeur(), img.getHauteur());
         setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
