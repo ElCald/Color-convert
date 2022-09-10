@@ -9,3 +9,5 @@ Change les pixels d'une image selon une palette de couleur (RGB) définie.
 -Changer la palette : ImageConvert.java, ligne 126. (Fichier à recompiler)
 
 -Executer ImageMain.java
+
+Nécessite la VM Java.
