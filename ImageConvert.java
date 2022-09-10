@@ -121,11 +121,10 @@ class ImageConvert{
 
     public void proche(int[] val){
 
+        
         //Palettes de couleurs
+        int[][] TabCouleur = {{101,54,33},{184,8,0},{53,113,112},{49,128,17},{129,129,200}};
 
-        //int[][] TabCouleur = {{46,46,38},{242,231,213},{80,73,65},{130,130,130},{25,22,17},{70,81,87},{107,81,66},{59,70,74}};
-        int[][] TabCouleur = {{0,0,0},{101,54,33},{184,8,0},{53,113,112},{49,128,17},{129,129,200}};
-        //int[][] TabCouleur = {{211, 84, 0},{179, 182, 183}};
 
         int[] ValRGB = new int[TabCouleur.length];
 
