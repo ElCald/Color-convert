@@ -25,9 +25,7 @@ class ImageConvert{
 
 
     //getters & setters
-
-    public int[][][] getTableau(){ return tab;}
-
+    
     public int getRouge(int x, int y){return tab[y][x][0];}
     public int getVert(int x, int y){return tab[y][x][1];}
     public int getBleu(int x, int y){return tab[y][x][2];}
