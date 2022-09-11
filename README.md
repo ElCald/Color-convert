@@ -11,4 +11,6 @@ La couleur du pixel est choisi en fonction de son code RGB le plus proche avec c
 
 -Executer ImageMain.java
 
-Nécessite la VM Java.
+Le temps d'exectution varie en celon la taille de l'image et la taille de la palette.
+
+/!\ Nécessite la VM Java /!\
