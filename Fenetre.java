@@ -16,7 +16,7 @@ public class Fenetre extends JFrame{
 
     public Fenetre(){
 
-        Panel imageDessin = new Panel();
+        Panel imageDessin = new Panel();//
 
         setTitle("Image");
         setSize(img.getLargeur(), img.getHauteur());
@@ -39,38 +39,5 @@ public class Fenetre extends JFrame{
         dispose();
 
     }
-
-    // public BufferedImage Capture(Component compo){
-
-    //     BufferedImage image = new BufferedImage(compo.getWidth(), compo.getHeight(), BufferedImage.TYPE_INT_RGB);
-    //     compo.paint(image.getGraphics());
-    //     return image;
-
-    // }
-
-  // public void Sauvegarder(Component compo){
-
-    //     BufferedImage imageS = Capture(compo);
-    //     try{
-    //         ImageIO.write(imageS, "jpg", new File("jenifail2bis.jpg"));
-    //     }catch(IOException e){e.printStackTrace();}  
-
-    // }
-
-//    public void Sauvegarder(Component compo){
-
-//         BufferedImage image = new BufferedImage(compo.getWidth(), compo.getHeight(), BufferedImage.TYPE_INT_RGB);
-//         Graphics2D g = image.createGraphics();
-//         compo.printAll(g);
-//         g.dispose();
-//         try{
-//             ImageIO.write(image, "jpg", new File("jenifail2bis.jpg"));
-//         }
-//         catch(IOException e){e.printStackTrace();}  
-
-//     }
-
-
-
 
 } 
