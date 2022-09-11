@@ -1,8 +1,7 @@
 import javax.swing.JPanel;
 import java.awt.Graphics;
 import java.awt.Color;
-import java.util.Date;
-import java.util.Calendar;
+
 
 /**
  * Affichage dans un panel pixel par pixel ou via bande de pixel
@@ -14,10 +13,6 @@ class Panel extends JPanel{
     ImageConvert img = new ImageConvert();
 
     public void paint(Graphics g){
-
-        
-        long ms1 = System.currentTimeMillis();
-        
         
         for(int i = 0; i <img.getHauteur(); i++){
 
@@ -52,16 +47,8 @@ class Panel extends JPanel{
             // }
         }
 
-        long ms2 = System.currentTimeMillis();
-        long tps = ms2-ms1;
-        System.out.println("Fin d'impression");
-  
-        System.out.println("Temps : "+ tps +"ms");
-        System.out.println(tps/1000/60+"."+(tps/1000-tps/1000/60));
-
-
         
     }
 
 
-}//fin class
+}//fin class panel

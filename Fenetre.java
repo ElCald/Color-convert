@@ -29,8 +29,7 @@ public class Fenetre extends JFrame{
         setResizable(false);
         setContentPane(imageDessin);
         
-        
-        //Sauvegarde de l'image
+
         pack();
         BufferedImage image = new BufferedImage(img.getLargeur(), img.getHauteur(), BufferedImage.TYPE_INT_RGB);
         Graphics2D g2d = image.createGraphics();
@@ -43,7 +42,7 @@ public class Fenetre extends JFrame{
         }
         dispose();
 
-    }//fin const fenetre
+    }
 
 
-}//fin class
+}//fin class fenetre
