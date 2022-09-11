@@ -15,23 +15,30 @@ class ImageConvert{
     private int largeur = 0;
     private int hauteur = 0;
 
+    private String NomImage = "sasori";//lien image
+    private String ExtentionImage = "jpg";
+
 
     public ImageConvert(){//constructeur
 
-        imageTab("sasori.jpg"); //lien image
+        imageTab(NomImage+"."+ExtentionImage); 
 
     }
 
 
 
     //getters & setters
-    
+
+    public int[][][] getTableau(){return tab;}
+
     public int getRouge(int x, int y){return tab[y][x][0];}
     public int getVert(int x, int y){return tab[y][x][1];}
     public int getBleu(int x, int y){return tab[y][x][2];}
 
     public int getHauteur(){return hauteur;}
     public int getLargeur(){return largeur;}
+    public String getNomImg(){return NomImage;}
+    public String getExtImg(){return ExtentionImage;}
 
 
 
@@ -119,10 +126,11 @@ class ImageConvert{
 
     public void proche(int[] val){
 
-        
         //Palettes de couleurs
-        int[][] TabCouleur = {{101,54,33},{184,8,0},{53,113,112},{49,128,17},{129,129,200}};
 
+        //int[][] TabCouleur = {{46,46,38},{242,231,213},{80,73,65},{130,130,130},{25,22,17},{70,81,87},{107,81,66},{59,70,74}};
+        int[][] TabCouleur = {{101,54,33},{184,8,0},{53,113,112},{49,128,17},{129,129,200}};
+        //int[][] TabCouleur = {{211, 84, 0},{179, 182, 183}};
 
         int[] ValRGB = new int[TabCouleur.length];
 
