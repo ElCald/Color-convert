@@ -5,16 +5,21 @@ import javax.imageio.ImageIO;
 import java.awt.Color;
 import java.lang.Math;
 
-
+/**
+ * Convertis l'image dans un tableau, pixel par pixel
+ * @author ElCald
+ */
 
 
 class ImageConvert{
 
-    private int [][][] tab; //tableau 3D. 1> coord X, 2> coord Y, 3> code RGB
+    private int [][][] tab; /** tableau 3D. 1> coord X, 2> coord Y, 3> code RGB */
 
+    /**Hauteur et largeur de l'image */
     private int largeur = 0;
     private int hauteur = 0;
 
+    /**Nom de l'image */
     private String NomImage = "sasori";//lien image
     private String ExtentionImage = "jpg";
 
@@ -46,7 +51,10 @@ class ImageConvert{
 
     //méthodes------------------------------------------------------------
 
-
+    /**
+     * 
+     * @param nom_fichier C'est le nom de l'image se trouvant dans le meme dossier
+     */
     public void imageTab(String nom_fichier){
 
         BufferedImage img;
@@ -123,7 +131,10 @@ class ImageConvert{
 
     }//fin indiceMinimum
 
-
+    /**
+     * Permet de changer les valeurs RGB d'un pixel en prenant les valeurs les plus proches dans la palette (soustraction avec valeur absolu pour prendre la plus petite valeur proche de zero)
+     * @param val Tableau contenant les valeur RGB du pixel selectionné 
+     */
     public void proche(int[] val){
 
         //Palettes de couleurs

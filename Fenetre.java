@@ -9,6 +9,10 @@ import java.awt.Graphics2D;
 import javax.swing.*;
 import java.awt.*;
 
+/**
+ * Affichage a l'ecran ou sauvegarde de l'image
+ * @author ElCald
+ */
 
 public class Fenetre extends JFrame{
 
@@ -16,7 +20,7 @@ public class Fenetre extends JFrame{
 
     public Fenetre(){
 
-        Panel imageDessin = new Panel();//
+        Panel imageDessin = new Panel();
 
         setTitle("Image");
         setSize(img.getLargeur(), img.getHauteur());
@@ -39,5 +43,6 @@ public class Fenetre extends JFrame{
         dispose();
 
     }
+
 
 } 

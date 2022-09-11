@@ -4,6 +4,11 @@ import java.awt.Color;
 import java.util.Date;
 import java.util.Calendar;
 
+/**
+ * Affichage dans un panel pixel par pixel ou via bande de pixel
+ * @author ElCald
+ */
+
 class Panel extends JPanel{
 
     ImageConvert img = new ImageConvert();
@@ -52,13 +57,11 @@ class Panel extends JPanel{
         System.out.println("Fin d'impression");
   
         System.out.println("Temps : "+ tps +"ms");
-        System.out.println(tps/1000/60+"."+tps/1000%60);
+        System.out.println(tps/1000/60+"."+(tps/1000-tps/1000/60));
 
 
         
     }
-
-
 
 
 }//fin class
