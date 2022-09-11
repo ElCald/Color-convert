@@ -34,11 +34,9 @@ class ImageConvert{
 
     //getters & setters
 
-    public int[][][] getTableau(){return tab;}
-
-    public int getRouge(int x, int y){return tab[y][x][0];}
-    public int getVert(int x, int y){return tab[y][x][1];}
-    public int getBleu(int x, int y){return tab[y][x][2];}
+    public int getRouge(int h, int l){return tab[l][h][0];}
+    public int getVert(int h, int l){return tab[l][h][1];}
+    public int getBleu(int h, int l){return tab[l][h][2];}
 
     public int getHauteur(){return hauteur;}
     public int getLargeur(){return largeur;}
@@ -107,7 +105,7 @@ class ImageConvert{
         
         }
 
-    }//fin imageTab Math.abs
+    }//fin imageTab
 
 
 
