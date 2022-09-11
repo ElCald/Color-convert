@@ -24,7 +24,7 @@ public class ImageMain{
         System.out.println("Fin d'impression");
   
         System.out.println("Temps : "+ tps +"ms");
-        System.out.println(tps/1000/60+"."+(tps/1000-tps/1000/60));
+        System.out.println(tps/1000/60+"m,"+(tps/1000-tps/1000/60)+"s");
 
         //fichier à executer
 
