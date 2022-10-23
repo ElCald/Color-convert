@@ -14,3 +14,6 @@ La couleur du pixel est choisi en fonction de son code RGB le plus proche avec c
 Le temps d'exectution varie en celon la taille de l'image et la taille de la palette.
 
 /!\ Nécessite la VM Java /!\
+
+(Optimisation approximative, l'éxecution peut prendre plusieurs minutes ! )
+The execution can make a long minutes !
