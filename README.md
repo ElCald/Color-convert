@@ -16,4 +16,4 @@ Le temps d'exectution varie en celon la taille de l'image et la taille de la pal
 /!\ Nécessite la VM Java /!\
 
 (Optimisation approximative, l'éxecution peut prendre plusieurs minutes ! )
-The execution can make a long minutes !
+Execution may take several minutes !
