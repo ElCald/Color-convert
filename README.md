@@ -3,6 +3,7 @@ Change les pixels d'une image selon une palette de couleur (RGB) définie.
 La couleur du pixel est choisi en fonction de son code RGB le plus proche avec celui d'une couleur de la palette.
 Le programme change bloc par bloc (de pixels) sur la ligne.
 
+------
 
 -Compilation des fichiers : ```javac *.java ```
 
