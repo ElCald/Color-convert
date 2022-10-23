@@ -18,4 +18,8 @@ Le temps d'exectution varie en celon la taille de l'image et la taille de la pal
 (Optimisation approximative, l'éxecution peut prendre plusieurs minutes ! )
 Execution may take several minutes !
 
+Exemple : 
 
+![Ill stats](docs/figs/dataset_stats.png)
+![Ill stats](docs/figs/dataset_stats.png)
+![Ill stats](docs/figs/dataset_stats.png)
