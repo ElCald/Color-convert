@@ -7,9 +7,9 @@ Le programme change bloc par bloc (de pixels) sur la ligne.
 
 -Compilation des fichiers : ```javac *.java ```
 
--Changer l'image : ImageConvert.java, ligne 23 & 24. *(Fichier à recompiler)*
+-Changer l'image : ImageConvert.java, __ligne 23 & 24__. *(Fichier à recompiler)*
 
--Changer la palette : ImageConvert.java, ligne 142. *(Fichier à recompiler)*
+-Changer la palette : ImageConvert.java, __ligne 142__. *(Fichier à recompiler)*
 
 -Executer ImageMain.java
 
