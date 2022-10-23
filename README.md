@@ -20,7 +20,7 @@ Execution may take several minutes !
 
 Exemple : 
 
-![Ill stats](exemple/original.jpg)
+(exemple/original.jpg)
 ![Ill stats](exemple/original-swap.jpg)
 ![Ill stats](docs/figs/exemple/palette.jpg)
 
