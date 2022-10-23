@@ -22,6 +22,7 @@ Execution may take several minutes !
 
 ## Original
 ![Alt text](https://github.com/ElCald/Color-convert/blob/main/Exemple/original.jpg?raw=true)
+Credit : Anato Finnstark
 ## Colored
 ![Alt text](https://github.com/ElCald/Color-convert/blob/main/Exemple/original-swap.jpg?raw=true)
 ## Palette
