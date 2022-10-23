@@ -20,7 +20,7 @@ Execution may take several minutes !
 
 Exemple : 
 
-**Sample Images:**
+![Alt text](exemple/original.jpg?raw=true "Title")
 
 ![Ill images](exemple/original.jpg)
 ![Ill stats](exemple/original-swap.jpg)
