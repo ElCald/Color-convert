@@ -18,12 +18,13 @@ Le temps d'exectution varie en fonction la taille de l'image et celle de la pale
 (Optimisation approximative, l'éxecution peut prendre plusieurs minutes ! )
 Execution may take several minutes !
 
-Exemple : 
+# Exemple : 
 
-![Alt text](https://github.com/ElCald/Color-convert/blob//tree/main/original.jpg?raw=true)
+## Original
+![Alt text](https://github.com/ElCald/Color-convert/blob/main/Exemple/original.jpg?raw=true)
+## Colored
+![Alt text](https://github.com/ElCald/Color-convert/blob/main/Exemple/original-swap.jpg?raw=true)
+## Palette
+![Alt text](https://github.com/ElCald/Color-convert/blob/main/Exemple/palette.png?raw=true)
 
-![Ill images](exemple/original.jpg)
-![Ill stats](exemple/original-swap.jpg)
-![Ill stats](docs/figs/exemple/palette.jpg)
-
-Credit image : Anato Finnstark (https://www.artstation.com/artwork/rnDN5)
+Credit image original : [Anato Finnstark](https://www.artstation.com/artwork/rnDN5)
