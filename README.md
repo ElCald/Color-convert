@@ -3,7 +3,8 @@ Change les pixels d'une image selon une palette de couleur (RGB) définie.
 La couleur du pixel est choisi en fonction de son code RGB le plus proche avec celui d'une couleur de la palette.
 
 
--Compilation des fichiers : ```bash javac *.java ```
+-Compilation des fichiers : ```bash 
+javac *.java ```
 
 -Changer l'image : ImageConvert.java, ligne 23 & 24. (Fichier à recompiler)
 
