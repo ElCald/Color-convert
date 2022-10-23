@@ -5,9 +5,9 @@ La couleur du pixel est choisi en fonction de son code RGB le plus proche avec c
 
 -Compilation des fichiers : javac *.java
 
--Changer l'image : ImageConvert.java, ligne 18 & 19. (Fichier à recompiler)
+-Changer l'image : ImageConvert.java, ligne 23 & 24. (Fichier à recompiler)
 
--Changer la palette : ImageConvert.java, ligne 132. (Fichier à recompiler)
+-Changer la palette : ImageConvert.java, ligne 142. (Fichier à recompiler)
 
 -Executer ImageMain.java
 
