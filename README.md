@@ -20,7 +20,7 @@ Execution may take several minutes !
 
 Exemple : 
 
-![Alt text](tree/main/Exemple/original.jpg?raw=true "Title")
+![Alt text](../tree/main/Exemple/original.jpg?raw=true "Title")
 
 ![Ill images](exemple/original.jpg)
 ![Ill stats](exemple/original-swap.jpg)
