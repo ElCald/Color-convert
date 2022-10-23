@@ -20,6 +20,8 @@ Execution may take several minutes !
 
 Exemple : 
 
-![Ill stats](docs/figs/dataset_stats.png)
-![Ill stats](docs/figs/dataset_stats.png)
-![Ill stats](docs/figs/dataset_stats.png)
+![Ill stats](exemple/original.jpg)
+![Ill stats](exemple/original-swap.jpg)
+![Ill stats](docs/figs/exemple/palette.jpg)
+
+Credit image : Anato Finnstark (https://www.artstation.com/artwork/rnDN5)
