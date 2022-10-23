@@ -20,6 +20,8 @@ Execution may take several minutes !
 
 Exemple : 
 
+**Sample Images:**
+
 ![Ill images](exemple/original.jpg)
 ![Ill stats](exemple/original-swap.jpg)
 ![Ill stats](docs/figs/exemple/palette.jpg)
