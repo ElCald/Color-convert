@@ -18,7 +18,6 @@ Le temps d'exectution varie en fonction la taille de l'image et celle de la pale
 __! Nécessite la VM Java !__
 
 (Optimisation approximative, l'éxecution peut prendre plusieurs minutes ! )
-Execution may take several minutes !
 
 # Exemple : 
 
