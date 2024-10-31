@@ -10,7 +10,7 @@ Le programme change bloc par bloc (de pixels) sur la ligne.
   - Parallèle : make omp (besoin de la bibliothèque OpenMP)
 - Changer la palette : modifier le tableau "tab_colors" dans le fichier main.cpp
 - Exectution ./main nom_image.ext
-
+------
 ### Version JAVA
 - Compilation des fichiers : ```javac *.java ```
 - Changer l'image : ImageConvert.java, __ligne 23 & 24__. *(Fichier à recompiler)*
@@ -22,7 +22,7 @@ Le temps d'exectution varie en fonction la taille de l'image et celle de la pale
 __! Nécessite la VM Java !__
 
 (Optimisation approximative, l'éxecution peut prendre plusieurs minutes ! )
-
+------
 # Exemple : 
 
 ## Original
