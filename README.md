@@ -12,14 +12,10 @@ Le programme change bloc par bloc (de pixels) sur la ligne.
 - Exectution ./main nom_image.ext
 
 ### Version JAVA
-
-Compilation des fichiers : ```javac *.java ```
-
-Changer l'image : ImageConvert.java, __ligne 23 & 24__. *(Fichier à recompiler)*
-
-Changer la palette : ImageConvert.java, __ligne 142__. *(Fichier à recompiler)*
-
-Executer ImageMain.java
+- Compilation des fichiers : ```javac *.java ```
+- Changer l'image : ImageConvert.java, __ligne 23 & 24__. *(Fichier à recompiler)*
+- Changer la palette : ImageConvert.java, __ligne 142__. *(Fichier à recompiler)*
+- Executer ImageMain.java
 
 Le temps d'exectution varie en fonction la taille de l'image et celle de la palette.
 
