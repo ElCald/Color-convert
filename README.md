@@ -8,7 +8,7 @@ Le programme change bloc par bloc (de pixels) sur la ligne.
 - Compilation
   - Séquentielle : make
   - Parallèle : make omp (besoin de la bibliothèque OpenMP)
-- Changer la palette : modifier le tableau "tab_colors"
+- Changer la palette : modifier le tableau "tab_colors" dans le fichier main.cpp
 - Exectution ./main nom_image.ext
 
 ### Version JAVA
