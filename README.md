@@ -22,15 +22,15 @@ Le temps d'exectution varie en fonction la taille de l'image et celle de la pale
 __! Nécessite la VM Java !__
 
 (Optimisation approximative, l'éxecution peut prendre plusieurs minutes ! )
-------
+
 # Exemple : 
 
-## Original
+### Original
 ![Alt text](https://github.com/ElCald/Color-convert/blob/main/Exemple/original.jpg?raw=true)
 Credit : Anato Finnstark
-## Colored
+### Colored
 ![Alt text](https://github.com/ElCald/Color-convert/blob/main/Exemple/original-swap.jpg?raw=true)
-## Palette
+### Palette
 ![Alt text](https://github.com/ElCald/Color-convert/blob/main/Exemple/palette.png?raw=true)
 
 Credit image original : [Anato Finnstark](https://www.artstation.com/artwork/rnDN5)
