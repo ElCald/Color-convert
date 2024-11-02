@@ -5,6 +5,7 @@ Le programme change bloc par bloc (de pixels) sur la ligne.
 
 ------
 ### Version C++
+- Bibliothèques : Opencv et OpenMP
 - Compilation
   - Séquentielle :  ```make```
   - Parallèle :  ```make omp``` (besoin de la bibliothèque OpenMP)
@@ -19,7 +20,6 @@ Le programme change bloc par bloc (de pixels) sur la ligne.
 
 Le temps d'exectution varie en fonction la taille de l'image et celle de la palette.
 
-__! Nécessite la VM Java !__
 
 (Optimisation approximative, l'éxecution peut prendre plusieurs minutes ! )
 
